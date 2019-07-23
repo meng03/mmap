@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,assign) size_t offset;
+@property(nonatomic,assign) void *ptr;
+@property(nonatomic,assign) size_t mmapSize;
+@property(nonatomic,assign) int fd;
 
 @end
 
